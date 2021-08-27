@@ -1,0 +1,10 @@
+{
+    "name": "react-typescript-starter-minimal",
+    "version": "1.0.0",
+    "description": "React TypeScript starter app",
+    "main": "index.js",
+    "repository": "git@github.com:wsameer/react-typescript-starter-minimal.git",
+    "author": "wsameer <dev.wsameer@gmail.com>",
+    "license": "MIT",
+    "private": true
+}
