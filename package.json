@@ -10,7 +10,9 @@
     "scripts": {
         "start": "webpack serve --mode development --open",
         "build": "webpack --mode production --progress",
-        "test": "jest",
+        "test:jest": "jest --config config/jest/jest.config.js",
+        "test:types": "tsc",
+        "test": "run-p test:types test:jest",
         "clean": "rimraf dist"
     },
     "dependencies": {
