@@ -13,7 +13,7 @@
         "test:jest": "jest --config config/jest/jest.config.js",
         "test:types": "tsc",
         "test": "run-p test:types test:jest",
-        "clean": "rimraf dist"
+        "clean": "rimraf dist coverage"
     },
     "dependencies": {
         "react": "^17.0.2",
