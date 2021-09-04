@@ -54,7 +54,12 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 include: SRC,
-                exclude: /node_modules/,
+                exclude: [
+                    /node_modules/,
+                    /\.test.tsx?$/,
+                    /__snapshots__/,
+                    /__tests__/,
+                ],
                 use: [
                     {
                         loader: 'thread-loader',
@@ -64,6 +69,7 @@ module.exports = {
                         },
                     },
                     'babel-loader',
+                    'stylelint-custom-processor-loader',
                 ],
             },
         ],
