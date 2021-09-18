@@ -5,12 +5,16 @@ This project was bootstrapped with [Create Complete React App](https://www.linke
 
 ## Features
 
- -  [Styled Components](https://styled-components.com/) for stress-less styling of your apps with the best bits of ES6 and CSS.
+ - [Styled Components](https://styled-components.com/) for stress-less styling of your apps with the best bits of ES6 and CSS.
  - [React Testing Library](https://testing-library.com/) for simple and complete testing utilities that encourage good testing practices.
  - [Prettier](https://prettier.io/) an opinionated code formatter for you to focus on coding without worrying about how you code looks.
  - [Typescript](https://www.typescriptlang.org/) for strong typing and catching mistakes in your editor.
  - [Webpack](https://webpack.js.org/) for state of the art bundling and creating an optimized built of your app.
  - [React Hot Loader](https://gaearon.github.io/react-hot-loader/) for keep your components mounted and preserving the state.
+
+### Top Lighthouse Score
+![lighthouse results](https://user-images.githubusercontent.com/8468992/133891900-b8d16e5d-d6eb-4b9a-b4ff-c7c4c5cee71a.png)
+
 
 ## Available Scripts
 
