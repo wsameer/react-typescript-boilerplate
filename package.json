@@ -17,7 +17,7 @@
         "lint:css": "stylelint src/**/*.tsx",
         "lint:ts": "eslint src/**/*.{ts,tsx}",
         "lint": "run-p lint:ts lint:css",
-        "clean": "rimraf dist coverage node_modules"
+        "clean": "rimraf build coverage node_modules"
     },
     "resolutions": {
         "styled-components": "^5"

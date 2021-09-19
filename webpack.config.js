@@ -10,13 +10,13 @@ const CompressionPlugin = require('compression-webpack-plugin');
 
 const PACKAGE_ROOT_PATH = process.cwd(),
     SRC = path.resolve(PACKAGE_ROOT_PATH, './src'),
-    DIST = path.resolve(PACKAGE_ROOT_PATH, './dist'),
+    BUILD = path.resolve(PACKAGE_ROOT_PATH, './build'),
     PUBLIC = path.resolve(PACKAGE_ROOT_PATH, './public'),
     INDEX_HTML = path.resolve(PACKAGE_ROOT_PATH, './public/index.html');
 
 module.exports = {
     output: {
-        path: DIST,
+        path: BUILD,
         filename: '[name].[contenthash].js',
         chunkFilename: '[name].[contenthash].js',
         publicPath: '/',
@@ -87,7 +87,7 @@ module.exports = {
             patterns: [
                 {
                     from: PUBLIC,
-                    to: DIST,
+                    to: BUILD,
                     globOptions: {
                         ignore: ['**/index.html'],
                     },

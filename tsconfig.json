@@ -39,5 +39,5 @@
         }
     },
     "include": ["src", "types"],
-    "exclude": ["node_modules", "dist", "coverage"]
+    "exclude": ["node_modules", "build", "coverage"]
 }

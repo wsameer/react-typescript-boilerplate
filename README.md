@@ -53,7 +53,7 @@ This will trigger
 
 ### `yarn clean`
 
-This will remove `dist, coverage and node_modules`folders for a clean start.
+This will remove `build, coverage and node_modules`folders for a clean start.
 
 ### Features in pipeline
 
