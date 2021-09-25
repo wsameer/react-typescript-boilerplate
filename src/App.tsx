@@ -1,14 +1,17 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { defaultTheme } from '@theme';
+import { defaultTheme } from '@theme/theme';
+import Header from 'components/Header';
+import PageLayout from 'components/layout/PageLayout';
+import { GlobalStyles } from '@theme';
 
 export const App: React.FC = () => {
     return (
         <ThemeProvider theme={defaultTheme}>
-            <div>
-                <h1>Welcome!</h1>
-                <p>Edit App.tsx to create something awesome!</p>
-            </div>
+            <GlobalStyles />
+            <PageLayout>
+                <Header />
+            </PageLayout>
         </ThemeProvider>
     );
 };
