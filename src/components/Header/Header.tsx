@@ -1,23 +1,24 @@
 import React from 'react';
-import { HeaderWrapper } from './Header.styled';
+import Logo from './logo.svg';
+import { AppLink, HeaderWrapper } from './Header.styled';
 
 export const Header: React.FC = React.memo(() => {
     return (
         <HeaderWrapper>
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            <Logo height={200} width={200} />
             <p>
-                Edit <code>src/App.tsx</code> and save to reload.
+                Edit <code>`src/App.tsx`</code> and save to reload.
             </p>
-            <a
+            <AppLink
                 className="App-link"
                 href="https://reactjs.org"
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 Learn React
-            </a>
+            </AppLink>
         </HeaderWrapper>
     );
 });
 
-Header.displayName = "Header";
+Header.displayName = 'Header';
