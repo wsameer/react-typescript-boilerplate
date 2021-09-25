@@ -12,20 +12,7 @@ module.exports = function (api) {
                 },
             ],
             '@babel/plugin-transform-runtime',
-            [
-                'inline-react-svg',
-                {
-                    svgo: {
-                        plugins: [
-                            {
-                                cleanupIDs: {
-                                    minify: false,
-                                },
-                            },
-                        ],
-                    },
-                },
-            ],
+            'inline-react-svg'
         ];
 
     if (api.env() === 'development') {
