@@ -34,6 +34,8 @@
         "strictFunctionTypes": true,
         "skipLibCheck": true,
         "paths": {
+            "@components": ["components"],
+            "@components/*": ["components/*"],
             "@theme": ["theme"],
             "@theme/*": ["theme/*"]
         }
