@@ -22,7 +22,7 @@ Your environment will have everything you need to build a modern single-page Rea
 
 In the project directory, you can run:
 
-### `npm start` OR `yarn start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -30,12 +30,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will automatically reload if you make changes to the code.
 You will see the build errors and lint warnings in the console.
 
-### `npm test` OR `yarn test`
+<p align='center'>
+    <img src='https://i.ibb.co/gmrd9Rh/react-error.png' width='600' alt='Build errors'>
+<p>
+
+### `npm test` or `yarn test`
 
 Runs the test watcher in an interactive mode.
 By default, runs tests related to files changed since the last commit.
 
-### `npm build` OR `yarn build`
+### `npm build` or `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -43,14 +47,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `npm lint` OR `yarn lint`
+### `npm lint` or `yarn lint`
 
 This will trigger
 
  - `esLint`: a linter that finds and fixes problems in your JavaScript/TypeScript code.
  - `styleLint`: a linter that helps you avoid errors and enforce conventions in your styles.
 
-### `npm clean` OR `yarn clean`
+### `npm clean` or `yarn clean`
 
 This will remove `build, coverage and node_modules`folders for a clean start.
 
