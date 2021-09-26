@@ -1,7 +1,7 @@
 
 # Getting Started with Create Complete React App
 
-This project was bootstrapped with [Create Complete React App](https://www.linkedin.com/in/wsameer/).
+This project was bootstrapped with [Create Complete React App](https://github.com/wsameer/react-typescript-starter-minimal/).
 
 ## Features
 
