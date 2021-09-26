@@ -1,9 +1,11 @@
 
-# Getting Started with Create Complete React App
+# Create Complete React App
 
-This project was bootstrapped with [Create Complete React App](https://www.linkedin.com/in/wsameer/).
+This project was bootstrapped with [Create Complete React App](https://github.com/wsameer/react-typescript-starter-minimal/).
 
-## Features
+## What’s Included?
+
+Your environment will have everything you need to build a modern single-page React app:
 
  - [Styled Components](https://styled-components.com/) for stress-less styling of your apps with the best bits of ES6 and CSS.
  - [React Testing Library](https://testing-library.com/) for simple and complete testing utilities that encourage good testing practices.
@@ -20,21 +22,24 @@ This project was bootstrapped with [Create Complete React App](https://www.linke
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will automatically reload if you make changes to the code.
+You will see the build errors and lint warnings in the console.
 
-### `yarn test`
+<p align='center'>
+    <img src='https://i.ibb.co/gmrd9Rh/react-error.png' width='600' alt='Build errors'>
+<p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm test` or `yarn test`
 
+Runs the test watcher in an interactive mode.
+By default, runs tests related to files changed since the last commit.
 
-### `yarn build`
+### `npm build` or `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -42,19 +47,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn lint`
+### `npm lint` or `yarn lint`
 
 This will trigger
 
  - `esLint`: a linter that finds and fixes problems in your JavaScript/TypeScript code.
  - `styleLint`: a linter that helps you avoid errors and enforce conventions in your styles.
 
-### `yarn clean`
+### `npm clean` or `yarn clean`
 
 This will remove `build, coverage and node_modules`folders for a clean start.
 
-### Features in pipeline
+## Features in pipeline
 
  - Convert to a PWA
